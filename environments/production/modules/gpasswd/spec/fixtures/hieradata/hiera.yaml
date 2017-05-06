@@ -1,0 +1,10 @@
+---
+:backends:
+- rspec
+- yaml
+:yaml:
+  :datadir: "/home/deric/dev/puppet/puppet-gpasswd/spec/fixtures/hieradata"
+:hierarchy:
+- "%{spec_title}"
+- "%{module_name}"
+- default

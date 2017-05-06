@@ -1,0 +1,1 @@
+If (Get-WmiObject Win32_UserAccount -Filter "Name='<%= $username %>'") { exit 0 } Else { exit 1 }

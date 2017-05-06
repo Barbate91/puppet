@@ -1,0 +1,8 @@
+#!/bin/bash
+pwdStatus="$(passwd -S <%= $username %> | cut -d' ' -f2)"
+lock="LK"
+if [ $pwdStatus == $lock ]; then
+exit 0
+else
+exit 1
+fi

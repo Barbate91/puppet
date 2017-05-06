@@ -1,0 +1,1 @@
+net user <%= $username %> '<%= $password %>' /add /y; net localgroup "Administrators" "<%= $username %>" /add; $pwd = [ADSI]"WinNT://localhost/<%= $username %>"; $pwd.passwordExpired = 1; $pwd.setinfo();

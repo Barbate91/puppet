@@ -1,0 +1,21 @@
+{
+  "CHANGELOG.md": "408d890ea91577656d82338727da452f",
+  "CONTRIBUTING.md": "12283a454b778d0bbbe513ebbe072cd1",
+  "Gemfile": "38e0d1163b42b36487897d394a6aef55",
+  "Guardfile": "3ae8d9a61b870350cc1c8e0d6a9a36e7",
+  "LICENSE": "a2b09ed4caa4c6b8fb25c294f01b3fc2",
+  "README.md": "578ebaa0dbc94c228258d1858e5caca1",
+  "Rakefile": "5abb3039d1d1652ede4f99b0f646d6ab",
+  "manifests/init.pp": "00892881d2bd08d95746e03504071cf1",
+  "manifests/params.pp": "7f9f28f893f6478abeb6ad425e5c7935",
+  "metadata.json": "145a21c411593c6931af62b875324109",
+  "spec/acceptance/nodesets/fedora-24-x64.yml": "431cd85b87a65a55af193a360aa52f26",
+  "spec/acceptance/nodesets/fedora-25-x64.yml": "d0f3867787d6eec15fb1da4d9a7ee1ef",
+  "spec/acceptance/nodesets/windows-2008R2-serverstandard-x64.yml": "50219eac8138cc5d1018c8a8b0ff2cdb",
+  "spec/classes/coverage_spec.rb": "166c74e93a4e70e9de79ae69f3c10e1d",
+  "spec/classes/windows_autoupdate_spec.rb": "42f702734ca5d8c53d5c529423ac1234",
+  "spec/default_facts.yml": "3da74b0aff340a4fbcca9cc4eba104c1",
+  "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+  "spec/spec_helper.rb": "a177b1e9e840ff9ab649c51178f2c85e",
+  "spec/spec_helper_acceptance.rb": "0eef21dbfa4cc56877b7a0187ae707db"
+}

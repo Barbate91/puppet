@@ -1,0 +1,8 @@
+#!/bin/sh
+pwdStatus="$(cat /etc/master.passwd | grep <%= $username %> | cut -d':' -f2)"
+lock='*'
+if [ $pwdStatus == $lock ]; then
+exit 0
+else
+exit 1
+fi

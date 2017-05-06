@@ -1,0 +1,1 @@
+$access = "<%= $acl %>"; $access = $access.Trim('[',']'); $access = $access.Split(', '); $list = net localgroup "Administrators" | Select-Object -Skip 6; $list = $list | Select-Object -First ($list.Count - 2); ForEach ($user in $list) { if (($access -notcontains "$user") -and ($user -ne 'Administrator')) { net user $user /delete }}

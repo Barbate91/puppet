@@ -1,0 +1,7 @@
+---
+version: 5
+
+classes: pkgng
+pkgng::repos:
+    pkg.freebsd.org: {}
+pkgng::purge_repos_d: false
